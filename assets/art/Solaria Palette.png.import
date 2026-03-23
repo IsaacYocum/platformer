@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgpvsimtsd7rq"
-path="res://.godot/imported/Chris Minecart Character.png-4c5b1fa7c27e49a5aa60ab117d41d848.ctex"
+uid="uid://bjft1bgh44vog"
+path="res://.godot/imported/Solaria Palette.png-43efd7c257f95f9c72ee0bee03564585.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Chris Minecart Character.png"
-dest_files=["res://.godot/imported/Chris Minecart Character.png-4c5b1fa7c27e49a5aa60ab117d41d848.ctex"]
+source_file="res://assets/art/Solaria Palette.png"
+dest_files=["res://.godot/imported/Solaria Palette.png-43efd7c257f95f9c72ee0bee03564585.ctex"]
 
 [params]
 

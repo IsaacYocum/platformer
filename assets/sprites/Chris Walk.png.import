@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1fprdmjlv1wj"
-path="res://.godot/imported/Chris Attack (One Hand Weapons).png-3c008a309b8e811728df32ff6075b6a7.ctex"
+uid="uid://g8i2p0th3qvr"
+path="res://.godot/imported/Chris Walk.png-e4679703bc558e4da984049b9655aa82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Chris Attack (One Hand Weapons).png"
-dest_files=["res://.godot/imported/Chris Attack (One Hand Weapons).png-3c008a309b8e811728df32ff6075b6a7.ctex"]
+source_file="res://assets/sprites/Chris Walk.png"
+dest_files=["res://.godot/imported/Chris Walk.png-e4679703bc558e4da984049b9655aa82.ctex"]
 
 [params]
 

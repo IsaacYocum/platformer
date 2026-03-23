@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://45i0m78sq1jd"
-path="res://.godot/imported/Chris Minecart Vehicle.png-7fda86ba922cc9bb3ed753c1dd6751f0.ctex"
+uid="uid://dgpvsimtsd7rq"
+path="res://.godot/imported/Chris Minecart Character.png-970d7e0a23f1d43bd7b7b6b3a03531d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Chris Minecart Vehicle.png"
-dest_files=["res://.godot/imported/Chris Minecart Vehicle.png-7fda86ba922cc9bb3ed753c1dd6751f0.ctex"]
+source_file="res://assets/sprites/Chris Minecart Character.png"
+dest_files=["res://.godot/imported/Chris Minecart Character.png-970d7e0a23f1d43bd7b7b6b3a03531d5.ctex"]
 
 [params]
 

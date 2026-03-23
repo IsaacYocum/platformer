@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c015gx0ttiyjs"
-path="res://.godot/imported/Chris Idle.png-f718209c0814d1876d28936f4c115dd1.ctex"
+uid="uid://b1fprdmjlv1wj"
+path="res://.godot/imported/Chris Attack (One Hand Weapons).png-024900272319704e3f7fc499231edcca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Chris Idle.png"
-dest_files=["res://.godot/imported/Chris Idle.png-f718209c0814d1876d28936f4c115dd1.ctex"]
+source_file="res://assets/sprites/Chris Attack (One Hand Weapons).png"
+dest_files=["res://.godot/imported/Chris Attack (One Hand Weapons).png-024900272319704e3f7fc499231edcca.ctex"]
 
 [params]
 

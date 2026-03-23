@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4ial3raqev23"
-path="res://.godot/imported/Chris Sword 01.png-18d2e6a9ed9f38e2ce4f8d4fe57388be.ctex"
+uid="uid://c015gx0ttiyjs"
+path="res://.godot/imported/Chris Idle.png-7180aade7c22b3860dce67940796629f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Chris Sword 01.png"
-dest_files=["res://.godot/imported/Chris Sword 01.png-18d2e6a9ed9f38e2ce4f8d4fe57388be.ctex"]
+source_file="res://assets/sprites/Chris Idle.png"
+dest_files=["res://.godot/imported/Chris Idle.png-7180aade7c22b3860dce67940796629f.ctex"]
 
 [params]
 
