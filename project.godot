@@ -10,10 +10,14 @@ config_version=5
 
 [application]
 
-config/name="tower-defense"
+config/name="platformer"
 run/main_scene="uid://c0yco7hpg0abq"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Utils="*uid://hxiq03fm32kd"
 
 [input]
 

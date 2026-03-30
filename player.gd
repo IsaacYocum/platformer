@@ -11,11 +11,14 @@ var jump_count = 0
 @export var short_jump_factor = 0.5
 @export var coyote_time = 0.15
 var coyote_timer = 0.0
+@export var FAST_FALL_FACTOR = 1.1
+@export var MAX_FALL_SPEED = 800
+@export var MAX_SLOW_FALL_SPEED = 150
 
 func _physics_process(delta):
 	handle_coyote_time(delta)
 	handle_jump()
-	handle_horizontal_movement()
+	handle_movement(delta)
 	move_and_slide()
 	pass
 	
@@ -38,6 +41,7 @@ func handle_jump():
 		velocity.y *= short_jump_factor
 
 func jump():
+	$AudioStreamPlayer2D.play()
 	velocity.y = JUMP_VELOCITY
 	coyote_timer = 0
 
@@ -49,9 +53,19 @@ func handle_coyote_time(delta: float):
 		velocity.y += gravity * delta
 		coyote_timer -= delta
 	
-func handle_horizontal_movement():
-	var direction = Input.get_axis("ui_left", "ui_right")
-	if direction:
-		velocity.x = direction * SPEED
+func handle_movement(delta: float):
+	# Horizontal
+	var h_direction = Input.get_axis("ui_left", "ui_right")
+	if h_direction:
+		velocity.x = h_direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+		
+	# Vertical
+	if Input.is_action_pressed("ui_up") and Utils.is_falling(self):
+		velocity.y = min(velocity.y, MAX_SLOW_FALL_SPEED)
+	elif Input.is_action_pressed("ui_down") and Utils.is_falling(self):
+		velocity.y *= FAST_FALL_FACTOR
+	
+	# X
+	velocity.y = min(velocity.y, MAX_FALL_SPEED)
